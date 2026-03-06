@@ -1,0 +1,79 @@
+==== PART 1: Python Data Analysis ====
+
+1. Dependency Distances
+Telugu: Mean = 1.5625, Median = 1.0
+Hindi: Mean = 3.1975, Median = 1.0
+
+2. Top 10 Dependency Relations
+Telugu:
+  rsym: 3232
+  root: 3185
+  k1: 2289
+  nmod: 1430
+  k2: 1394
+  vmod: 818
+  adv: 518
+  k7p: 508
+  k7t: 497
+  r6: 486
+Hindi:
+  lwg__psp: 82200
+  nmod__adj: 31632
+  rsym: 28009
+  k1: 25824
+  ccof: 25510
+  pof__cn: 24739
+  r6: 22115
+  main: 19541
+  k2: 19215
+  lwg__vaux: 18440
+
+4. Significance Testing on Dependency Distances
+T-statistic = -132.3478, P-value = 0.0000e+00
+
+5. Morphological Features Summary
+Feature: Gen
+Telugu Top:
+  any: 1796
+  fn: 1490
+  n: 630
+  m: 438
+  fm: 303
+  f: 117
+  sg: 12
+  pl: 5
+  avy: 1
+Hindi Top:
+  m: 148391
+  any: 77186
+  f: 62971
+  punc: 7
+  num: 1
+
+Feature: Num
+Telugu Top:
+  sg: 6895
+  pl: 2543
+  any: 1452
+  3: 6
+  2: 3
+  1: 2
+Hindi Top:
+  sg: 213627
+  any: 37960
+  pl: 34882
+  punc: 1
+
+Feature: Case
+Telugu Top:
+  d: 4146
+  o: 754
+  ^@WA: 1
+  0: 1
+Hindi Top:
+  o: 117601
+  d: 96638
+  any: 7390
+  0: 6
+  ए: 1
+
